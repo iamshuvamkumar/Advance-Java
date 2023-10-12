@@ -1,0 +1,46 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="img-box">
+                <div class="img-box1">
+                   <img src="img/2.jpg" alt="">
+                </div>
+            </div>
+            <div class="box">
+                 
+              <div class="box-from">
+                <form action="register.jsp" method="post">
+                    <label for="username">UserName</label>
+                    <input type="text" name="username"  placeholder="Enter Your User Name..." id="username" required>
+                    
+                    <label for="mobile">Phone No.</label>
+                    <input type="tel" name="mobile"  placeholder="Enter Your User Phone No...." id="mobile" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" name="email"  placeholder="Enter Your User Email..." id="email" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Enter Your User Password..." id="password" required >
+                  
+                    <div class="button-box">
+                    <button class="rigester"><a href="login.html">Login</a></button>
+                    <input type="submit" value="Rigester">
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="js/login.js"></script>
+</body>
+</html>

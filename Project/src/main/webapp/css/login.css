@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(125 21 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box {
+    width: 90%;
+    height: 90%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-box{
+    width: 50%;
+    height: 450px;
+    /* background-color: white; */
+}
+.img-box1{
+    margin: 21px 0px 0px 37px;
+    width: 90%;
+    height: 90%;
+    /* background-color: black; */
+}
+.img-box1 img{
+    margin-left: 20px;
+    border-radius: 15px 60px 15px 60px;
+    box-shadow: 5px 5px 5px black;
+    width: 90%;
+    height: 100%;
+}
+.box {
+    width: 50%;
+    height: 450px;
+    /* background-color: rgb(205, 199, 199); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-from{
+    background-color: rgb(78 96 118);
+    width: 80%;
+    height: 80%;
+    box-shadow: 3px 3px 10px #0e2231, -3px -3px 10px #f50f48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 102px 10px;
+}
+form{
+    width: 500px;
+     
+}
+label{
+    font-size: 20px;
+    color: white;
+}
+
+input[type=text]{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: black;
+    font-size: 18px;
+    border: none;
+}
+input[type=password]{
+    margin-top: 10px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: black;
+    font-size: 18px;
+    border: none;
+}
+.button-box{
+    width: 98%;
+    height: 95px;
+    /* background-color: burlywood; */
+    display: flex;
+    place-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+input[type=submit]{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 14px;
+}
+input[type=submit]:hover{
+    color: white;
+    border: 2px solid white;
+    background: linear-gradient(307deg, #1a5da0, white);
+    box-shadow: 2px 2px 5px white;
+}
+.rigester{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 14px;
+}
+.rigester a{
+    text-decoration: none;
+    color: black;
+}
+.rigester a:hover{
+    color: white;
+}
+
+.rigester:hover{
+    color: white;
+    border: 2px solid white;
+    background: linear-gradient(45deg, #101449, white);
+    box-shadow: 2px 2px 5px white;
+}
