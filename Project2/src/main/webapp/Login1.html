@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        background-color: teal;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: url('https://c4.wallpaperflare.com/wallpaper/109/526/358/marvel-comics-deadpool-cartoon-yellow-background-deadpool-graphic-wallpaper-preview.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        overflow: hidden;
+    }
+
+    form {
+        display: flex;
+        width: 300px;
+        height: 100px;
+        background-color: #000000;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 10px white;
+        border-radius: 10px;
+    }
+
+    input[type="password"] {
+        width: 230px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        padding-left: 8px;
+    }
+
+    input[type="submit"] {
+        width: 190px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        padding-left: 8px;
+        margin-top: 8px;
+        background: #8f8f8fa6;
+        color: white;
+    }
+    input[type="submit"]:hover{
+        border: 1px solid black;
+        background-color: #1c1a1a42;
+    }
+</style>
+
+<body>
+
+    <form action="login1" method="post">
+        <input type="password" name="password" placeholder="Enter Password">
+        <input type="submit" value="login">
+    </form>
+    
+</body>
+
+</html>

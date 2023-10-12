@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        background-color: teal;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: url('https://c4.wallpaperflare.com/wallpaper/772/393/77/deadpool-ryan-reynolds-deadpool-2-wallpaper-preview.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        overflow: hidden;
+    }
+
+    form {
+        display: flex;
+        width: 300px;
+        height: 100px;
+        background-color: #112a403b;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 10px white;
+        border-radius: 10px;
+    }
+
+    input[type="text"] {
+        width: 230px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        padding-left: 8px;
+    }
+
+    input[type="submit"] {
+        width: 190px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        padding-left: 8px;
+        margin-top: 8px;
+        background: #8f8f8fa6;
+        color: white;
+    }
+    input[type="submit"]:hover{
+        border: 1px solid black;
+        background-color: #1c1a1a42;
+    }
+</style>
+
+<body>
+
+
+    <form action="delete" method="post">
+        <input type="password" name="password" placeholder="Enter password">
+        <input type="submit" value="login">
+    </form>
+</body>
+
+</html>

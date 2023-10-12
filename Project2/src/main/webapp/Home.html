@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/Home.css">
+  <title> Login And Register </title>
+</head>
+
+<body>
+
+
+  <!-- NavBar Start -->
+
+  <nav class="navbar navbar-expand-lg color">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">Apne-Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white " href="#">About</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Login
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item " href="Login.html">Sign in</a></li>
+              <li><a class="dropdown-item" href="Register.html">sign-up</a></li>
+              <li><a class="dropdown-item" href="Update.html">Update</a></li>
+              <li><a class="dropdown-item" href="Delete.html">Delete Data</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning text-white" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar End -->
+
+  <!-- carousel End -->
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://images.unsplash.com/photo-1560760253-9de375ab5129?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          height="540px" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Lorem, ipsum dolor.</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, accusamus?</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2047&q=80"
+          height="540px" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Lorem, ipsum dolor.</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, accusamus?</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1549923746-c502d488b3ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+          height="540px" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Lorem, ipsum dolor.</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, accusamus?</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          height="540px" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Lorem, ipsum dolor.</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, accusamus?</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- carousel End -->
+
+  <!-- Card Start  -->
+  <div class="container mt-2">
+    <div class="row">
+      <div class="card mt-2  spaceBox " style="width: 18rem;">
+        <img
+          src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1888&q=80"
+          height="350px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lorem, ipsum.</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, dicta!</p>
+          <a href="#" class="btn btn-primary">Click</a>
+        </div>
+      </div>
+
+      <div class="card mt-2  spaceBox " style="width: 18rem;">
+        <img
+          src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+          height="350px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lorem, ipsum.</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, dicta!</p>
+          <a href="#" class="btn btn-primary">Click</a>
+        </div>
+      </div>
+
+      <div class="card mt-2  spaceBox " style="width: 18rem;">
+        <img
+          src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+          height="350px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lorem, ipsum.</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, dicta!</p>
+          <a href="#" class="btn btn-primary">Click</a>
+        </div>
+      </div>
+      <div class="card mt-2  spaceBox " style="width: 18rem;">
+        <img
+          src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+          height="350px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lorem, ipsum.</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, dicta!</p>
+          <a href="#" class="btn btn-primary">Click</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card End -->
+
+  <!-- start  Section 1 -->
+  <div class="container-fluid ">
+    <div class="container sec1box mt-2 mb-2">
+      <div class="sec1box1"></div>
+      <div class="sec1box2">
+        <h3>Lorem ipsum dolor sit.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nemo saepe corporis eligendi incidunt
+          cupiditate corrupti qui perferendis quasi facere. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Assumenda, provident dicta. Velit provident suscipit a nihil est magni optio inventore quod quaerat expedita
+          dicta placeat impedit excepturi delectus hic rem, vero error maxime! Doloremque exercitationem minus ducimus
+          officiis ut minima. Possimus, numquam odio. Dolor alias nemo iure accusamus. Beatae, soluta!</p>
+        <button class="btn btn-outline-warning">Read More</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Section 1 -->
+
+
+  <!-- --------------------------------Footer-- ------------------------->
+
+  <div class="container-fluid footer-section">
+    <div class="container footer">
+      <div class="row footer1">
+        <div class="col-4 footer-col-box">
+          <div class="col-12 text-center Landing-Page-Img-box-con">
+            <h1>Welcome to <span>Apne</span> Store!</h1>
+          </div>
+        </div>
+        <div class="col-4 footer-col-box">
+          <div class="footer-icon-box">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+
+          <div class="row mt-3">
+
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>Apne-Store
+              </h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, deserunt.
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-4">
+                Books
+              </h6>
+              <p>
+                <a href="#" class="text-reset History">History</a>
+              </p>
+              <p>
+                <a href="#" class="text-reset Historical-Fiction">Historical Fiction</a>
+              </p>
+              <p>
+                <a href="#" class=" text-reset Mystery">Mystery</a>
+              </p>
+              <p>
+                <a href="#" class=" text-reset Poetry">Poetry</a>
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                <a href="mailto:Shuvam.k9211@gmail.com">Shuvam.k9211@gmail.com</a>
+              </p>
+              <p><i class="fas fa-phone me-3 text-secondary"></i> <a href="tel:+123456789123"></a>+ 123 456 789 123</p>
+              <p><i class="fas fa-print me-3 text-secondary"></i> <a href="tel:+123456789123"></a>+ 123 456 789 123</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="#">GODOFCLOWN</a>
+  </div>
+
+  <!-- End Footer -->
+  <!-- JavaScript  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
