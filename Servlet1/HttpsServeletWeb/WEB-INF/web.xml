@@ -1,0 +1,40 @@
+<web-app>
+ 
+<servlet>   
+  <servlet-name>mydom</servlet-name>
+     <servlet-class>DHS.DemoHttpsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>mydom</servlet-name>
+     <url-pattern>/dom</url-pattern>
+  </servlet-mapping>
+  
+ <servlet> 
+   <servlet-name>mydom1</servlet-name>
+   <servlet-class>DHS.DemoHttpsServlet1</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>mydom1</servlet-name>
+  <url-pattern>/dom1</url-pattern>
+</servlet-mapping>
+
+ <servlet> 
+   <servlet-name>mydom2</servlet-name>
+   <servlet-class>DHS.DemoHttpsServlet2</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>mydom2</servlet-name>
+  <url-pattern>/dom2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>mydom3</servlet-name>
+<servlet-class>DHS.DemoHttpsServlet0</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>mydom3</servlet-name>
+<url-pattern>/dom3</url-pattern>
+</servlet-mapping>
+
+
+  </web-app>

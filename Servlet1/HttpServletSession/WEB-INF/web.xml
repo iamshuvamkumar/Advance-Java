@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app>
+  <servlet>
+  <servlet-name>mysession</servlet-name>
+  <servlet-class>MyHttpSession.DemoHttpSession</servlet-class>
+  </servlet>
+<servlet-mapping>
+  <servlet-name>mysession</servlet-name>
+  <url-pattern>/og</url-pattern>
+</servlet-mapping>
+
+
+</web-app>

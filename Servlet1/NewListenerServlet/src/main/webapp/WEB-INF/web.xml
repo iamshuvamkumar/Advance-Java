@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+
+  <listener>
+    <listener-class>myListener.MyListener</listener-class>
+  </listener>
+  <servlet>
+    <description></description>
+    <display-name>MyServletListener</display-name>
+    <servlet-name>MyServletListener</servlet-name>
+    <servlet-class>myservlet.MyServletListener</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyServletListener</servlet-name>
+    <url-pattern>/myservlet</url-pattern>
+  </servlet-mapping>
+</web-app>

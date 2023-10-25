@@ -1,0 +1,13 @@
+<web-app>
+
+ <servlet>
+      <servlet-name>MyName</servlet-name>
+      <servlet-class>NewWeb.NewWebApp</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+      <servlet-name>MyName</servlet-name>
+      <url-pattern>india</url-pattern>
+   </servlet-mapping>
+ 
+</web-app>
