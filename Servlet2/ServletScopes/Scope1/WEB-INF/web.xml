@@ -1,0 +1,36 @@
+<web-app>
+
+ <servlet>
+   <servlet-name>dom</servlet-name>
+   <servlet-class>scope1.Demo1</servlet-class>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>dom</servlet-name>
+   <url-pattern>/a</url-pattern>
+ </servlet-mapping>
+
+
+ <servlet>
+   <servlet-name>dom1</servlet-name>
+   <servlet-class>scope1.Demo2</servlet-class>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>dom1</servlet-name>
+   <url-pattern>/b</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+ <servlet>
+   <servlet-name>dom2</servlet-name>
+   <servlet-class>scope1.Demo3</servlet-class>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>dom2</servlet-name>
+   <url-pattern>/c</url-pattern>
+ </servlet-mapping>
+ 
+ 
+
+
+</web-app>

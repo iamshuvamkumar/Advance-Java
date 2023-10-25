@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+  <servlet>
+    <servlet-name>TextServlet</servlet-name>
+    <servlet-class>myfilter.TextServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TextServlet</servlet-name>
+    <url-pattern>/filter</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>TextFilter</filter-name>
+    <filter-class>myfilter.TextFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>TextFilter</filter-name>
+    <url-pattern>/filter</url-pattern>
+  </filter-mapping>
+</web-app>
