@@ -1,0 +1,25 @@
+
+<web-app>
+
+  <servlet>
+     <servlet-name>dr</servlet-name>
+     <servlet-class>myredirect.DSendRedirect</servlet-class>
+   </servlet>
+
+  <servlet-mapping>
+      <servlet-name>dr</servlet-name>
+      <url-pattern>/sr</url-pattern>
+   </servlet-mapping>
+
+
+  <servlet>
+     <servlet-name>dr1</servlet-name>
+     <servlet-class>myredirect.DSendRedirect1</servlet-class>
+   </servlet>
+
+  <servlet-mapping>
+      <servlet-name>dr1</servlet-name>
+      <url-pattern>/srr</url-pattern>
+   </servlet-mapping>
+
+</web-app>
