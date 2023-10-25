@@ -1,0 +1,46 @@
+@media screen  and (max-width: 1550px){
+    .menubar .material-symbols-outlined{
+        display: none;
+    }
+    #SearchLogo{
+        display: none;
+    }
+   
+}
+@media screen  and (max-width: 1165px){
+    .navBox3{
+        display: none;
+    }
+    #SearchLogo{
+        display: block;
+    }
+    .serchbox{
+        display: block;
+        position: absolute;
+        top: 70px;
+    }
+ 
+}
+@media (min-width:200px) and (max-width: 820px){
+    .menu{
+        display: none;
+    }
+}
+ 
+@media  (max-width:820px) and (min-width: 200px){
+ .navBox2 .hide ul {
+    height: 220px;
+    width: 100%;
+    margin-top: 10px;
+    float: right;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+    .hide{
+        display: block;
+    }
+    
+    .menubar .material-symbols-outlined{
+        display: block;
+    }
+}

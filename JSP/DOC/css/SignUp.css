@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+
+.Header{
+    background: aqua;
+    height: 70px;
+}
+.navBox{   
+    padding-top: 6px;
+    height: 70px;
+    display: flex;
+    background: linear-gradient(45deg, black, transparent);
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.navBox1{
+    background: linear-gradient(45deg, red, #0b00ff);
+    height: 55px;
+    width: 200px;
+    margin-left: 15px;
+}
+.logo{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navBox2{
+    height: 56px;
+    width: 45%;
+}
+.menubar .material-symbols-outlined{
+    margin-top: 10px;
+    font-size: 45px;
+    float: right;
+}
+.navBox2 .menu{
+    /* background-color: #221f5f; */
+    height: 55px;
+    width: 100%;
+}.navBox2 .menu ul{
+    background: linear-gradient(45deg, red, #0b00ff);
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}.navBox2 .menu ul li{
+    list-style: none;
+    border-bottom: 2px solid wheat;
+}.navBox2 .menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navBox3{
+    background: linear-gradient(45deg, red, #0b00ff);
+    height: 55px;
+    width: 330px;
+}
+input[type="search"]{
+    width: 220px;
+    height: 40px;
+    margin: 7px 15px 0px 10px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.searchbtn{
+    width: 70px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #ff0101, #008cff);
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+.searchIcon{
+    font-size: 30px;
+    color: white;
+    padding-top: 8px;
+}
+
+/* ----------------------------[NavBar End ][---------------------------]-----------------------------------------[----------------------------]------------------- */
+
+
+.section-Main{
+    height: 700px;
+    background: linear-gradient(313deg,blue,red,green,yellow,pink,gray);
+    display: flex;
+    animation: col 2s  1s infinite;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes col {
+    0%{
+        background: linear-gradient(45deg,blue,red,green,yellow,pink,gray);
+    }
+    15%{
+        background: linear-gradient(45deg,blue,red,green,yellow,pink,gray);
+    }
+    30%{
+        background: linear-gradient(90deg,blue,red,green,yellow,pink,gray);
+    }
+    45%{
+        background: linear-gradient(120deg,blue,red,green,yellow,pink,gray);
+    }
+    60%{
+        background: linear-gradient(160deg,blue,red,green,yellow,pink,gray);
+    }
+    75%{
+        background: linear-gradient(180deg,blue,red,green,yellow,pink,gray);
+    }
+   
+    
+}
+.section-main-box{
+width: 98%;
+height: 98%;
+background: linear-gradient(45deg, #ff0101, #008cff);
+}
+.section-m-box1{
+    display: flex;
+    width: 100%;
+    background: #666060a1;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.section-m-box2{
+    width: 45%;
+    background: white;
+    height: 94%;
+}
+.section-m-box3{
+    width: 45%;
+    background: white;
+    height: 100%;
+}

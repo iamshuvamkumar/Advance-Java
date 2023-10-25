@@ -1,0 +1,49 @@
+<web-app>
+
+<servlet>
+<servlet-name>Db</servlet-name>
+<jsp-file>/DbConnect.jsp</jsp-file>
+
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Db</servlet-name>
+<url-pattern>/my</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+
+<servlet-name>Db1</servlet-name>
+<jsp-file>/OracleData.jsp</jsp-file>
+
+  <init-param>
+	   <param-name>drivername</param-name>
+	   <param-value>oracle.jdbc.driver.OracleDriver</param-value>
+	</init-param>
+	<init-param>
+	   <param-name>url</param-name>
+	   <param-value>jdbc:oracle:thin:@localhost:1521:xe</param-value>
+	</init-param>
+	
+	<init-param>
+	   <param-name>user</param-name>
+	   <param-value>system</param-value>
+	</init-param>
+	
+	<init-param>
+	   <param-name>pass</param-name>
+	   <param-value>5265374</param-value>
+	</init-param>
+	</servlet>
+  
+	
+	 
+
+<servlet-mapping>
+   <servlet-name>Db1</servlet-name>
+   <url-pattern>/my1</url-pattern>
+</servlet-mapping>
+
+</web-app>
